@@ -14,7 +14,8 @@ Best result with 3 hidden layers:
  * Activation Function: [relu, relu, relu],
  * Batch size: 40,
  * epochs: 70, 
- * Accuracy: 0.9737
+ * Accuracy: 0.9737.//
+ 
  Best result with 4 hidden layers:
  * Hidden Layers: 4, 
  * Neurons: [700. 700, 700, 700],
