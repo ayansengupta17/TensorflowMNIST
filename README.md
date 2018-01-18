@@ -7,15 +7,15 @@ This is just a simple neural network model with 4 hidden layers. One can easily 
 * optimizer: Adam Optimizer with default learning rate.
 * loss function: softmax_cross_entropy_with_logits
 
-### Results
+### Results:
+Best result with 3 hidden layers:
  * Hidden Layers: 3, 
  * Neurons: [500. 500, 500],
  * Activation Function: [relu, relu, relu],
  * Batch size: 40,
  * epochs: 70, 
  * Accuracy: 0.9737
- 
-
+ Best result with 4 hidden layers:
  * Hidden Layers: 4, 
  * Neurons: [700. 700, 700, 700],
  * Activation Function: [relu, relu, relu, relu],
@@ -23,4 +23,21 @@ This is just a simple neural network model with 4 hidden layers. One can easily 
  * epochs: 70, 
  * Accuracy: 0.9738
 
+I failed to cross the accuracy of 97% on test data.
 
+
+## mnsit_tf_rnn.py
+This is just a Recurrent Neural Network model with an LSTM in TensorFlow. This python file has both the models namely the simple neural network model with 4 hidden layers and the Recurrent neural network with LSTM.
+
+* optimizer: Adam Optimizer with default learning rate.
+* loss function: softmax_cross_entropy_with_logits
+
+### Best Result:
+
+* batch size: 128
+* tile size: 28
+* number of tiles: 28
+* rnn size: 512
+* epochs: 40 
+* loss: 2.079
+* Accuracy: 0.99
